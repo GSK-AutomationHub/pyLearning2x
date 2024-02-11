@@ -15,3 +15,11 @@ print(Num_1)
 Num_1 *= Num_2
 print(Num_1)
 
+Num_1 //= 7
+print(Num_1)
+
+Num_1 **= 2
+print(Num_1)
+
+Num_1 %= Num_2
+print(Num_1)

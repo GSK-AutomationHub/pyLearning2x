@@ -1,7 +1,7 @@
 # Learning python inbuilt function
 num = 24
-print(dir(num))
-print(help(num.__round__()))
+print(dir(float))
+print(help(float))
 
 # function abs (absolute) return +ve number if -ve entered
 print(abs(-42))
