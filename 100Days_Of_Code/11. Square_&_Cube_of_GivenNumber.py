@@ -1,4 +1,5 @@
 # calculate & print square and cube of given number
+
 number = int(input("Enter the number\n"))
 # number_square = number ** 2
 number_square = pow(number, 2)
