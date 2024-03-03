@@ -7,9 +7,9 @@ courses.append('Art')
 print(courses)
 
 # pop method used to remove value at last index of list, it returns the removed value
-removed_courses = courses.pop()
+removed_course = courses.pop()
 print(courses)
-print(removed_courses)
+print(removed_course)
 
 # insert method used to add value at specific index of list
 courses.insert(0, 'Physics')

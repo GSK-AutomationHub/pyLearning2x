@@ -5,8 +5,8 @@ message = 'Hello world'
 print(dir(message))
 
 # help function
-print(help(str))
-print(help(str.find))
+#print(help(str))
+#print(help(str.find))
 
 # len gives length of the string
 print(len(message))
