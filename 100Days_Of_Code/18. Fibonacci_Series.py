@@ -6,3 +6,4 @@ while count < 25:
     b = b + count
     print(b)
     count = b
+#incomplete

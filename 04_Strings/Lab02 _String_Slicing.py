@@ -20,3 +20,6 @@ print(message[0:5], message[6:11])
 # we can print string slice w/o mentioning 1st or last index, 0th & last index consider in that case
 print(message[:5], message[6:])
 
+# reserve of string
+r_message = message[: : -1]
+print(r_message)

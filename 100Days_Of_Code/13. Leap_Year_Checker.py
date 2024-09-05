@@ -4,9 +4,24 @@
 # Input = 2024
 # Output = Leap year
 
-year = int(input("Please enter the year\n"))
+print("---------------------- Approach 1 --------------------------")
 
-if year % 4 == 0 or (year % 400 == 0 and year % 100 == 0):
-    print(f"{year} is Leap Year")
+year = int(input("Please enter the year\n"))
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print("Its a Leap Year")
+        else:
+            print("Its not a Leap Year")
+    else:
+        print("Its a Leap Year")
 else:
-    print(f"{year} is not a Leap Year")
+    print("Its not a Leap Year")
+
+print("---------------------- Approach 2 --------------------------")
+
+year = int(input("Please enter the year\n"))
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print("Its a Leap Year")
+else:
+    print("Its not a Leap Year")
