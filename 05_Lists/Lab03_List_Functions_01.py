@@ -1,6 +1,9 @@
-# Learning List methods
+# List Functions
 
 courses = ['History', 'CompSci', 'Math', 'English']
+
+# to print length of list
+print(len(courses))
 
 # append method used to add value at last index of list
 courses.append('Art')

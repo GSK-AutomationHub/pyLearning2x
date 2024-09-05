@@ -1,14 +1,6 @@
-# Learning List
+# List Slicing
 
 courses = ['History', 'CompSci', 'Math', 'English']
-
-# to print various functions available for list
-print(dir(list))
-# print(help(list.sort()))
-
-# to print length of list
-print(len(courses))
-
 # to print value at specific index in list,index starts from 0,
 print(courses[0])
 print(courses[3])
