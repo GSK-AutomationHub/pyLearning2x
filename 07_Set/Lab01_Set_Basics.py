@@ -16,3 +16,5 @@ us_cities = {'new york', 'boston', 'huston', 'california','pune','mumbai','banga
 print(india_cities)
 print(us_cities)
 
+print(type(india_cities))
+
